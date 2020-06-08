@@ -1,0 +1,560 @@
+/* PHONE VERSION */
+@media only screen and (min-width: 320px) {
+    h1 {color:purple;}
+}
+/* TABLET VERSION */
+@media only screen and (min-width: 768px) {
+    h1 {color: rgb(244, 209, 96);}
+}
+/* DESKTOP VERSION */
+
+@media only screen and (min-width: 980px) {
+    h1 {color: rgb(0, 153, 255);}
+}
+
+body {
+  background-color: #F7D6E0;
+}
+
+/*Home Page*/
+
+h3 {
+  color: #F2B5D4;
+  font-size: 30px;
+}
+
+
+
+h4 {
+  color: rgb(240, 238, 196);
+  display: flex;
+  font-style: normal;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  padding: 3px;
+  
+  background-color: #7BDFF2;
+  width: 47%;
+  text-align: center;
+  align-items: center;
+  margin-left: 345px;
+}
+
+h4:hover {
+  transform: scale(1.1);
+}
+
+.topflags {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  padding: 3px;
+}
+.secondflags {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  padding: 3px;
+}
+
+.lastflags {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  padding: 3px;
+}
+/*
+html {
+    background-image: url(shea.jpg);
+    background-size: 1300px 1300px;
+}
+*/
+
+body {
+	font-family: sans-serif;
+}
+
+nav {
+	background: #F7D6E0;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+nav a {
+	padding: 1rem;
+  color: #F2B5D4;
+  font-weight: bold;
+  font-style: italic;
+	text-decoration: none;
+}
+
+.hamburger {
+    width: 30px;
+    height: 20px;
+	position: relative;
+	float: right;
+    margin-bottom: 1rem;
+}
+
+.hamburger:hover {
+  transform: scale(1.1);
+}
+
+.hamburger:before, .hamburger:after {
+	content: "";
+	display: block;
+	width: 30px;
+	height: 5px;
+	background: #7BDFF2;
+  position: absolute;
+}
+ 
+.hamburger:before {
+    top: 0;
+}
+
+.hamburger:after {
+    bottom: 0;
+}
+
+.hamburger span {
+    width: 30px;
+    height: 5px;
+    display: block;
+    background: #F2B5D4;
+    position: absolute;
+    top: 7.5px;
+}
+
+nav.nav2 {
+    width: 300px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+	right: -300px;
+	transition: 0.5s all ease;
+}
+
+nav.nav2.active {
+	right: 0;
+}
+
+a.cross {
+    text-align: right;
+    font-size: 1.5rem;
+}
+
+@media only screen and (min-width: 992px) {
+	nav.nav1 {
+		flex-direction: row;
+	}
+  }
+/*About Us page*/
+
+.float-img{
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 5px;
+  padding: 2px;
+}
+
+
+
+/*recommendations page form*/
+
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #7BDFF2;
+  color: #F2B5D4;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #B2F7EF;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 20px;
+  background-color: #B2F7EF;
+  padding: 20px;
+  width: 70%;
+  
+}
+
+
+
+
+/*Gitmoji Page*/
+
+
+.container {
+    width: 600px;
+    max-width: 80%;
+    background-color: #B2F7EF;
+    padding: 50px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px 2px;
+    margin: auto;
+    width: 50%;
+
+    display: flex;
+    justify-content: center;
+
+
+}
+
+h1 {
+    color: rgb(76, 201, 240);
+    font-size: 50px;
+    font-style: oblique;
+    font-weight: bold;
+    border: 1px; 
+    padding: 30px;
+    margin: 30px;
+    display: flex;
+    justify-content: left;
+}
+
+h3 {
+    color: rgb(247, 37, 133);
+    font-size: 30px;
+    font-style: oblique;
+    font-weight: lighter; 
+   
+}
+
+h5 {
+    color: rgb(247, 37, 133);
+    font-size: 20px;
+    font-style: helvetica;
+    font-weight: lighter; 
+   
+}
+
+
+
+.buttons {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    color: whitesmoke;
+    font-size: 15px;
+    background: rgb(123, 223, 242);
+    font-style: oblique;
+    font-weight: bold;
+    padding: 10px;
+    box-shadow: 0 0 10px 2px;
+    border-radius: 5px; 
+    transition-duration: 0.4s;  
+}
+ 
+.buttons a {
+    color: rgb(240, 238, 196);
+    text-decoration: none;
+
+}
+
+.buttons:hover {
+    color: #F2B5D4;
+  }
+
+.About-us:hover {
+    transform: scale(1.1);
+}
+
+.Gitmoji-Game:hover {
+    transform: scale(1.1);
+}
+
+.Inspiring-Women:hover {
+    transform: scale(1.1);
+}
+
+.Recommendations:hover{
+    transform: scale(1.1);
+}
+
+.images{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.images:hover {
+    transform: scale(1.1);
+}
+
+
+/*Inspirational Women Page*/
+
+.h2{
+    color: black;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    font-weight: normal;
+    font-style: normal;
+    
+}
+
+.topRow {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding: 3px;
+    
+  }
+
+
+
+.topText {
+    color: black;
+    font-weight: normal;
+    font-style: normal;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  #khawlah-text {
+    border: white solid 4px;
+    background-color: #7BDFF2;
+    display: inline-flexbox;
+    flex-wrap: wrap;
+    margin-right: 15px;
+  }
+
+  #khawlah-text:hover {
+      transform: scale(1.1);
+  }
+
+
+ #malala-text {
+    border: white 4px solid;
+    background-color: #B2F7EF;
+    display: inline-flexbox;
+    flex-wrap: wrap;
+    margin-right: 25px;
+  }
+
+  #malala-text:hover {
+    transform: scale(1.1);
+  }
+
+  #frida-text {
+    border:white 4px solid;
+    background-color: #F2B5D4;
+    display: inline-flexbox;
+    flex-wrap: wrap;
+    margin-right: 15px;
+    width: initial;
+  }
+
+  #frida-text:hover {
+    transform: scale(1.1);
+  }
+
+  #yayoi-text {
+    border:white 4px solid;
+    background-color: #EFF7F6;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 15px;
+    width: initial;
+    padding-bottom: 90px;
+  }
+
+  #yayoi-text:hover {
+    transform: scale(1.1);
+  }
+
+  .secondRow {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding: 3px;
+  }
+
+.secondText {
+    color: black;
+    font-weight: normal;
+    font-style: normal;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  #sanna-text {
+    border:white solid 4px;
+    background-color: #7BDFF2;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 15px;
+    width: initial;
+  }
+
+  #sanna-text:hover {
+      transform: scale(1.1);
+  }
+
+ #novelene-text {
+    border:white 4px solid;
+    background-color: #B2F7EF;
+    display: inline-flexbox;
+    flex-wrap: wrap;
+    margin-right: 15px;
+    width: initial;
+  }
+
+  #novelene-text:hover {
+    transform: scale(1.1);
+  }
+
+  #alicia-text {
+    border:white 4px solid;
+    background-color: #F2B5D4;
+    display: inline-flexbox;
+    flex-wrap: wrap;
+    margin-right: 25px;
+    width: initial;
+  }
+
+  #alicia-text:hover {
+    transform: scale(1.1);
+  }
+
+  #madam-text {
+    border:white 4px solid;
+    background-color: #EFF7F6;
+    display: inline-flexbox;
+    flex-wrap: wrap;
+    margin-right: 25px;
+    width: initial;
+  }
+
+  #madam-text:hover {
+    transform: scale(1.1);
+  }
+
+.lastRow {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding: 3px;
+  }
+
+.lastText {
+    color: black;
+    font-weight: normal;
+    font-style: normal;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+#funmilayo-text {
+    border: white solid 4px;
+    background-color: #7BDFF2;
+    display: inline-flexbox;
+    flex-wrap: wrap;
+    margin-left: 15px;
+    width: initial;
+  }
+
+  #funmilayo-text:hover {
+      transform: scale(1.1);
+  }
+
+ #raghnild-text {
+    border: white 4px solid;
+    background-color: #B2F7EF;
+    display: inline-flexbox;
+    flex-wrap: wrap;
+    margin-left: 25px;
+    width: initial;
+  }
+
+  #raghnild-text:hover {
+    transform: scale(1.1);
+  }
+
+  #halet-text {
+    border: white 4px solid;
+    background-color: #F2B5D4;
+    display: inline-flexbox;
+    flex-wrap: wrap;
+    margin-left: 15px;
+    width: initial;
+  }
+
+  #halet-text:hover {
+    transform: scale(1.1);
+  }
+
+  #eva-text {
+    border: white 4px solid;
+    background-color: #EFF7F6;
+    display: inline-flexbox;
+    flex-wrap: wrap;
+    margin-left: 25px;
+    width: initial;
+    
+  }
+
+  #eva-text:hover {
+    transform: scale(1.1);
+  }
+
+  h5 {
+    color: #EFF7F6;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: oblique;
+
+  }
+  
+  h2 {
+    color: #B2F7EF;
+    
+    
+    
+  }
+
